@@ -1,0 +1,22 @@
+{
+  "name": "quarkay/php-coroutine",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "quarkay"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "LaruenceCoroutine/RetvalHelpers.php",
+      "LaruenceCoroutine/SyscallHelpers.php",
+      "MyCoroutine/TaskAPI.php"
+    ],
+    "psr-4": {
+      "LaruenceCoroutine\\": "LaruenceCoroutine/",
+      "MyCoroutine\\": "MyCoroutine/"
+    }
+  }
+}
